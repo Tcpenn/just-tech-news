@@ -1,7 +1,6 @@
 //Dependencies
 const router = require('express').Router();
 const { User } = require('../../models');
-const { restore } = require('../../models/User');
 
 //GET /api/users
 //JavaScript equivalent of SELECT * FROM users;
